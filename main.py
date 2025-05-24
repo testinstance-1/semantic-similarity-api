@@ -5,6 +5,7 @@ import httpx
 import numpy as np
 import os
 import logging
+import asyncio
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
