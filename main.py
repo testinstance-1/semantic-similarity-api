@@ -21,12 +21,12 @@ logging.basicConfig(level=logging.INFO)
 
 # Hugging Face API config
 HF_API_URL = "https://api-inference.huggingface.co/models/sentence-transformers/all-MiniLM-L6-v2"
-HF_API_KEY = os.getenv("HF_API_KEY")
-if not HF_API_KEY:
+HF_TOKEN = os.getenv("HF_TOKEN")
+if not HF_TOKEN:
     raise RuntimeError("HF_API_KEY not found in environment variables")
 
 headers = {
-    "Authorization": f"Bearer {HF_API_KEY}",
+    "Authorization": f"Bearer {HF_TOKEN}",
     "Content-Type": "application/json"
 }
 
