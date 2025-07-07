@@ -7,7 +7,7 @@ This roadmap provides a detailed implementation plan for the Agentic Accounting 
 
 ## Phase-wise Implementation Plan
 
-### Phase 1: Foundation & Infrastructure (Weeks 1-4)
+### Phase 1: Foundation & Infrastructure 
 
 ####  Environment Setup
 ```yaml
@@ -35,7 +35,7 @@ Infrastructure:
 - Establish CI/CD pipelines
 - Create base agent templates
 
-### Phase 2: Vendor Management Module (Weeks 5-8)
+### Phase 2: Vendor Management Module 
 
 ####  Process Design
 ```mermaid
