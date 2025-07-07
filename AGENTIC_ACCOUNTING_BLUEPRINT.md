@@ -1,4 +1,5 @@
 # Agentic Accounting Solution Blueprint
+BLUEPRINT
 
 ## Executive Summary
 
