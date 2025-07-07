@@ -1,4 +1,5 @@
 # Agentic Accounting Solution - Implementation Roadmap
+BLUEPRINT
 
 ## Executive Overview
 
